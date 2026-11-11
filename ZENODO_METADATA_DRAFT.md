@@ -1,50 +1,28 @@
 # Zenodo metadata draft
 
-## Proposed title
+## Title
 
 An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning — Research Package
 
-## Proposed description
+## Description
 
-Research materials supporting “An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning”.
+Supplied research archive supporting the manuscript of the same title. The repository distributes `Package_for_Raza_2026-11-11.7z` (5,828,036 bytes) unchanged. The archive's complete inventory and scientific reproducibility have not been independently verified here. No separate working CLI, validation suite or CI workflow is supplied at repository root.
 
-The project README describes a package comprising an APP 1.4 ontology (v2.1), a corpus of 199 Australian health privacy policy texts with labels and annotation history, frozen experimental protocols, historical scripts and saved results, and a command-line policy assessment tool. The intended assessment output includes seven disclosure labels, evidence sentence identifiers, traces, detected concepts, and numbered policy sentences.
+Research predictions do not establish legal compliance. Preserve the original historical labels, experimental results and frozen test-set restrictions described in the package.
 
-The assessment labels are research predictions and do not establish legal compliance. The historical 40-policy test set is closed. The README states that historical experiment execution is not restored: original paths, manifests, helper modules and model caches are required. Any archive description must distinguish preserved research provenance from executable reproduction.
+## Keywords
 
-**Current repository state:** At preparation of this draft, the default branch contains only README.md. The materials described above have not been verified or uploaded here. Remove this paragraph and revise the description against the actual release contents before publication.
+Australian Privacy Principles; APP 1.4; health privacy policies; ontology; labelled corpus; natural language processing; research reproducibility.
 
-## Proposed keywords
+## Confirm before DOI publication
 
-- Australian Privacy Principles
-- APP 1.4
-- health privacy policies
-- ontology
-- labelled corpus
-- natural language processing
-- rule-based assessment
-- machine learning
-- research reproducibility
-
-## Fields requiring confirmation
-
-| Field | Required decision |
+| Field | Required information |
 |---|---|
-| Creators | Full ordered author list, affiliations and verified ORCIDs for this project. Do not copy HackersJack authors automatically. |
-| Resource type | Choose the type that matches the final archived payload; software may fit a code-led package. |
-| Licence | Confirm code licensing separately from manuscript and third-party policy text redistribution rights. |
-| Access | Confirm the intended public/restricted archive contents. The repository is currently private. |
-| Version | Assign a release version after the actual package is uploaded and checked. |
-| Related identifiers | Add the paper DOI or other verified identifiers when available. |
-| Language | English (eng). |
+| Creators | Verified ordered manuscript author list, affiliations and optional verified ORCIDs |
+| Resource type | Type matching the inspected final deposit |
+| Licence and access | Confirm rights for code, manuscript, data and third-party policy text, and intended public or restricted access |
+| Version | Match the deposited package to the GitHub release tag |
+| Related identifiers | Verified manuscript DOI or other identifiers, if available |
+| Language | English (eng) |
 
-## Release preparation
-
-1. Upload the intended research package to this repository.
-2. Verify the file inventory, source manifest and documented integrity checks.
-3. Confirm creators, licensing and permitted archive contents.
-4. Convert the confirmed metadata to a root .zenodo.json file.
-5. Choose an archiving route. The Zenodo GitHub integration page states that private repositories are not supported; a separate Zenodo deposit can be considered without changing GitHub visibility.
-6. Publish the approved archive and verify its DOI resolves before adding citation links.
-
-No DOI has been minted for this repository by this change.
+The research archive is now committed to GitHub. A GitHub release and a Zenodo deposit are separate publication steps. Repository visibility remains private. No DOI has been minted or verified by this metadata file. Do not insert a placeholder DOI or infer authorship or licensing from the repository owner.
