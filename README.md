@@ -1,43 +1,25 @@
 # APP 1.4 ontology and Australian health privacy policy corpus
 
-Research materials for **An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning**.
+Research package for **An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning**.
 
-This repository preserves the supplied November 2026 research package and adds a working, dependency-free command-line interface for assessing new plain-text policies with ontology v2.1, integrity validation, tests, and GitHub Actions.
+## Download
 
-## Quick start
+Download [Package_for_Raza_2026-11-11.7z](Package_for_Raza_2026-11-11.7z) and extract it with a compatible 7z archive utility. The archive is stored unchanged; the research folders are not expanded into this repository.
 
-Python 3.11 or later. No third-party packages are required for the assessment CLI or repository checks.
+## Repository contents
 
-```bash
-python tools/validate_package.py
-python -m unittest discover -s tests -v
-python tools/assess_policy.py /path/to/new-policy.txt --output assessment.json
-```
-
-The output includes seven disclosure labels, evidence sentence identifiers, traces, detected concepts, and the numbered sentences used for the assessment. Output files must be new to prevent accidental replacement. Labels are research predictions; they do not establish legal compliance.
-
-## Repository map
-
-| Location | Contents |
+| File | Purpose |
 |---|---|
-| `1_Paper/` | Manuscript PDF, LaTeX source and bibliography |
-| `2_Notes/` | Claims, novelty review and future work |
-| `3_Data/` | 199 policy texts, labels, annotation history and collection scripts |
-| `4_Ontology/` | Original ontology v2.1 code, OWL/SKOS/SHACL artifacts and checks |
-| `5_Experiments/` | Frozen protocols, historical experiment scripts, saved results and LLM outputs |
-| `tools/` | New assessment CLI and package integrity validation |
-| `tests/` | Synthetic-input checks; no historical benchmark reruns |
+| `Package_for_Raza_2026-11-11.7z` | Supplied research archive (5,828,036 bytes) |
+| `README.md` | Package access and release information |
+| `ZENODO_METADATA_DRAFT.md` | Draft metadata and unresolved DOI publication details |
 
-Start with [the handover](README_for_Raza.md), [experiment results](5_Experiments/1_protocols_and_results_summary/RESULTS.md), and [ontology documentation](4_Ontology/README.md).
+The archive's full inventory and scientific reproducibility have not been independently verified in this repository. This repository does not provide a separately installed assessment CLI, validation scripts, tests or CI workflow. Consult the documentation inside the extracted package for the original research workflow and its dependencies.
 
-## Scientific preservation and reproducibility
+Research predictions do not establish legal compliance. Preserve historical labels, experimental results and any frozen test-set restrictions when using the package.
 
-The 40-policy historical test set is closed. CI does not train, tune, score that set, or call an LLM API. The new CLI refuses inputs located inside its historical test directory. This is a workflow guard, not a prohibition on inspecting the archived materials.
+## Citation and rights
 
-The supplied research files are preserved byte-for-byte, except removal of macOS filesystem metadata. `SOURCE_MANIFEST.json` records their SHA-256 checksums. The CLI reuses the original ontology and the original sentence-splitting function; it does not change cues or scientific results.
+Use the manuscript's verified author list and bibliographic details when citing this work. No DOI is recorded here yet. The Zenodo metadata remains a draft pending confirmation of creators, licensing and deposit details.
 
-**Historical experiment execution is not restored by this repository.** The handover states that the original project folder is required. Its scripts reference missing original paths, collection manifests, helper modules and model caches; some also enforce frozen hashes. They remain research provenance, not working reproduction commands. Do not remove their freeze checks or interpret syntax validation as reproduction of the paper. See [reproducibility notes](REPRODUCIBILITY.md).
-
-## Rights and release status
-
-Keep this repository private initially. No license was included in the supplied package, and this import does not grant a new license over the manuscript, third-party policies, data, or code. Author and affiliation details, venue, release permissions and a permanent ontology namespace remain release decisions. The existing `example.org` ontology namespace is preserved for consistency with archived artifacts.
+No licence is granted by this README. Manuscript, code, data and third-party policy text rights must be confirmed separately. Repository visibility is private; a release within this repository does not make it publicly accessible.
