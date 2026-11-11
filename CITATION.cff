@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the published Zenodo research package."
+type: dataset
+title: "An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning — Research Package"
+authors:
+  - family-names: "Nowrozy"
+    given-names: "Raza"
+    affiliation: "Victoria University"
+  - family-names: "Saxena"
+    given-names: "Urvashi Rahul"
+    affiliation: "Melbourne Institute of Technology"
+  - family-names: "Islam"
+    given-names: "Mohammad Tahidul"
+    affiliation: "Melbourne Institute of Technology"
+  - family-names: "Al-Boridi"
+    given-names: "Omar"
+    affiliation: "Melbourne Institute of Technology; RMIT University"
+  - family-names: "Al-Quraishi"
+    given-names: "Tahsien"
+    affiliation: "Melbourne Institute of Technology; Al-Ayen Iraqi University"
+  - family-names: "Khatri"
+    given-names: "Yogita"
+    affiliation: "Manav Rachna International Institute of Research and Studies"
+version: "1.0.0"
+doi: "10.5281/zenodo.24147899"
+date-released: 2026-11-12
+url: "https://zenodo.org/records/24147899"
+repository-code: "https://github.com/19976717/An_APP_1_4_Ontology_Paper"
