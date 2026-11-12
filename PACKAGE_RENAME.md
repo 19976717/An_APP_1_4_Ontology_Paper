@@ -15,6 +15,8 @@ The current branch replaces `Package_for_Raza_2026-11-11.7z` with the supplied `
 | Original published archive | 5,828,036 | `60331e1a2f5ff3bf9c8a32407a7944744b5fa54ac86649b39e9e60a115e23d4c` |
 | Renamed archive | 5,827,082 | `408cee826a815ddd29474dd88b5b53480ff4cd55680e181101e0eca685933b00` |
 
-## Preservation
+## Publication
 
-This update changes only the current GitHub branch. Existing GitHub tags/releases v1.0.0 and v1.0.1, the original research archive DOI https://doi.org/10.5281/zenodo.24147899, and the GitHub snapshot DOI https://doi.org/10.5281/zenodo.24148016 remain unchanged. Historical download links point to the original tagged archive. No new release or Zenodo version was published as part of this filename-only update.
+The renamed archive is published as version 1.0.2 at https://zenodo.org/records/24151181 (DOI https://doi.org/10.5281/zenodo.24151181). Use this DOI in manuscripts and publisher correspondence. The all-versions DOI is https://doi.org/10.5281/zenodo.24148015.
+
+Version 1.0.1 (DOI 10.5281/zenodo.24148016) is superseded and its files are restricted. Its historical record, including the original filenames visible to the owner, remains preserved. GitHub tags v1.0.0 and v1.0.1 and the separate original deposit DOI 10.5281/zenodo.24147899 remain historical records. No new scientific results were introduced.

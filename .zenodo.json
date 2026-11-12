@@ -1,7 +1,7 @@
 {
-  "title": "APP 1.4 Ontology and Labelled Corpus — GitHub Repository Snapshot",
+  "title": "APP 1.4 Ontology and Labelled Corpus — Research Package",
   "upload_type": "dataset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "access_right": "open",
   "license": "cc-by-4.0",
   "creators": [
@@ -24,13 +24,9 @@
     {
       "name": "Al-Quraishi, Tahsien",
       "affiliation": "Melbourne Institute of Technology; Al-Ayen Iraqi University"
-    },
-    {
-      "name": "Khatri, Yogita",
-      "affiliation": "Manav Rachna International Institute of Research and Studies"
     }
   ],
-  "description": "<p>Version 1.0.1 of the public GitHub repository supporting “An APP 1.4 Ontology and Labelled Corpus for Assessing Australian Health Privacy Policies: A Blind Test of Rules and Learning”. This repository snapshot includes the unchanged original research archive plus citation metadata, integrity information and licensing documentation added after the initial release. The original archive deposit is separately preserved at https://doi.org/10.5281/zenodo.24147899.</p><p>LICENCE SCOPE: CC BY 4.0 applies only to the authors' original work and only to rights they are entitled to grant. Third-party policy texts, quotations and other third-party materials are excluded and retain their existing rights and licensing terms. Public availability does not grant additional rights in those materials.</p><p>The archive contains 568 research files after excluding macOS metadata. Scientific experiments have not been independently rerun. Research predictions do not establish legal compliance.</p>",
+  "description": "<p>Current published research package: version 1.0.2, DOI https://doi.org/10.5281/zenodo.24151181. Cite this version in manuscripts and publisher correspondence. All-versions DOI: https://doi.org/10.5281/zenodo.24148015.</p><p>The archive Artificial Intelligence and Law_Paper.7z replaces the earlier packaging. All 568 research files match the original package byte-for-byte after accounting for the renamed PDF. No scientific results, labels or code were changed.</p><p>CC BY 4.0 applies only to the authors' original work and rights they can grant. Third-party materials retain their existing rights. Scientific experiments have not been independently rerun. Research predictions do not establish legal compliance.</p>",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.24147899",

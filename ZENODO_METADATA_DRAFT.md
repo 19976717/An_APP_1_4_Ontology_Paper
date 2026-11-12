@@ -1,21 +1,17 @@
 # Zenodo publication status
 
-Published record: https://zenodo.org/records/24147899
+Current published record: https://zenodo.org/records/24151181
 
-Version DOI: https://doi.org/10.5281/zenodo.24147899
+Version DOI (use in manuscript): https://doi.org/10.5281/zenodo.24151181
 
-All-versions DOI: https://doi.org/10.5281/zenodo.24147898
+All-versions DOI: https://doi.org/10.5281/zenodo.24148015
 
-Version: 1.0.0. Resource type: Dataset. Access: Open. Published: 12 November 2026.
+Version: 1.0.2. Resource type: Dataset. Access: Open. Published: 12 November 2026.
 
-Creators in manuscript order: Raza Nowrozy; Urvashi Rahul Saxena; Mohammad Tahidul Islam; Omar Al-Boridi; Tahsien Al-Quraishi; Yogita Khatri.
+Creators in published record order: Raza Nowrozy; Urvashi Rahul Saxena; Mohammad Tahidul Islam; Omar Al-Boridi; Tahsien Al-Quraishi.
 
-The deposit contains the original `Package_for_Raza_2026-11-11.7z` archive (5,828,036 bytes), matching the GitHub release copy. It contains 568 research files after excluding macOS metadata. Scientific experiments have not been independently rerun.
+The deposit contains only `Artificial Intelligence and Law_Paper.7z` (5,827,082 bytes). Its root folder is `Artificial Intelligence and Law_Paper/`. All 568 research files match the original package after accounting for the PDF rename. SHA-256: `408cee826a815ddd29474dd88b5b53480ff4cd55680e181101e0eca685933b00`.
 
-CC BY 4.0 applies to authors' original work only and only to rights they can grant. Third-party materials are explicitly excluded and retain their existing rights. See LICENSE.md.
+Version 1.0.1 (DOI 10.5281/zenodo.24148016) is superseded; its files are restricted. Restriction does not delete its historical filenames or DOI. The separate original deposit DOI 10.5281/zenodo.24147899 also identifies historical packaging.
 
-This file retains its original filename for continuity; it now records the completed publication rather than a pending metadata draft.
-
-## Current-branch package rename
-
-On 12 November 2026 the current GitHub branch adopted `Artificial Intelligence and Law_Paper.7z`. All 568 research files match the original package after accounting for the renamed PDF. See PACKAGE_RENAME.md. The published records and their archived files remain unchanged; the renamed package has not been deposited as a new DOI version.
+CC BY 4.0 applies only to authors' original work and rights they can grant. Third-party materials retain their existing rights. See LICENSE.md. Scientific experiments have not been independently rerun.
