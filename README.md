@@ -4,7 +4,16 @@ Research package for **An APP 1.4 Ontology and Labelled Corpus for Assessing Aus
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24151181.svg)](https://doi.org/10.5281/zenodo.24151181)
 
-## Current published package — version 1.0.2
+## GitHub release and automatic Zenodo snapshot
+
+[![GitHub release DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24151658.svg)](https://doi.org/10.5281/zenodo.24151658)
+
+- [GitHub release v1.0.2](https://github.com/19976717/An_APP_1_4_Ontology_Paper/releases/tag/v1.0.2)
+- [Automatically archived repository snapshot: DOI 10.5281/zenodo.24151658](https://zenodo.org/records/24151658)
+
+The Zenodo GitHub settings badge now displays **10.5281/zenodo.24151658**, assigned when GitHub release v1.0.2 was published. This DOI identifies the repository ZIP snapshot, including the renamed research archive and repository documentation. The separate archive-only DOI **10.5281/zenodo.24151181** below remains valid and can be used to cite the research package.
+
+## Published archive-only package — version 1.0.2
 
 **For manuscripts and publisher correspondence, cite [10.5281/zenodo.24151181](https://doi.org/10.5281/zenodo.24151181).**
 
