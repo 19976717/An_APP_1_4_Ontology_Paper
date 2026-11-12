@@ -15,3 +15,7 @@ The deposit contains the original `Package_for_Raza_2026-11-11.7z` archive (5,82
 CC BY 4.0 applies to authors' original work only and only to rights they can grant. Third-party materials are explicitly excluded and retain their existing rights. See LICENSE.md.
 
 This file retains its original filename for continuity; it now records the completed publication rather than a pending metadata draft.
+
+## Current-branch package rename
+
+On 12 November 2026 the current GitHub branch adopted `Artificial Intelligence and Law_Paper.7z`. All 568 research files match the original package after accounting for the renamed PDF. See PACKAGE_RENAME.md. The published records and their archived files remain unchanged; the renamed package has not been deposited as a new DOI version.
